@@ -10,7 +10,8 @@ body {
     'nav nav'
     'welcome welcome'
     'button button2'
-    'button3 button4';
+    'button3 button4'
+    'footer footer';
 }
 
 .nav-bar {
@@ -73,10 +74,13 @@ p {
 }
 
 .button-card {
+  text-align: center;
+  margin: auto;
   padding: 10px;
   background-color: #fff;
   height: 100%;
-  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 .bills {
@@ -103,3 +107,20 @@ p {
   grid-area: button4;
   border: solid 1px #ddd;
 } 
+
+.btn-title {
+  margin-bottom: 0px;
+}
+
+.btns {
+
+  grid-area: bottom;
+  bottom: 0px;
+  position: absolute;
+}
+
+.color {
+  color: #7d3a93;
+}
+
+
