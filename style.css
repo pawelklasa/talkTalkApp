@@ -1,11 +1,96 @@
+body {
+  margin: 0 auto; 
+  background-color: #fafafa;
+}
 .container {
   display: grid;
-  grid-gap: 10px;
+  /* grid-gap: 10px; */
   grid-auto-columns: 1fr;
   grid-template-areas: 
-    'nav nav';
+    'nav nav'
+    'welcome welcome'
+    'button button2'
+    'button3 button4';
 }
 
 .nav-bar {
+  padding: 10px;
   grid-area: nav;
+  background-color: #7d3a93;
 }
+
+.logo {
+  text-align: center;
+  margin: auto;
+}
+
+.message {
+  grid-area: welcome;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  text-align: center;
+  margin: auto;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fff;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+}
+
+.icon {
+  text-align: center;
+  margin: auto;
+  color: #f08739;
+}
+
+p {
+  text-align: center;
+}
+
+.button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: auto;
+  max-width: 300px;
+  background-color: #1e4e9d;
+  height: 45px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+
+.notif-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.button-card {
+  padding: 10px;
+  background-color: #fff;
+  height: 100%;
+  border: solid 1px #ddd;
+}
+
+.bills {
+  grid-area: button;
+}
+
+.fix {
+  grid-area: button2;
+} 
+
+.bills {
+  grid-area: button3;
+}
+
+.fix {
+  grid-area: button4;
+} 
