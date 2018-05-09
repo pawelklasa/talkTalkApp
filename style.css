@@ -9,8 +9,6 @@ body {
   grid-template-areas: 
     'nav nav'
     'welcome welcome'
-    'button button2'
-    'button3 button4'
     'footer footer';
 }
 
@@ -84,27 +82,29 @@ p {
 }
 
 .bills {
-  grid-area: button;
+  width: 50%;
+  display: inline-block;
   border: solid 1px #ddd;
   border-bottom: none;
   border-right: none;
 }
 
 .fix {
-  grid-area: button2;
+  display: inline-block;
+  width: 50%;
   border: solid 1px #ddd;
   border-bottom: none;
 
 } 
 
 .speed {
-  grid-area: button3;
+
   border: solid 1px #ddd;
   border-right: none;
 }
 
 .security {
-  grid-area: button4;
+
   border: solid 1px #ddd;
 } 
 
@@ -113,14 +113,15 @@ p {
 }
 
 .btns {
+  grid-area: footer;
+  
 
-  grid-area: bottom;
-  bottom: 0px;
-  position: absolute;
 }
 
 .color {
   color: #7d3a93;
 }
+
+
 
 
