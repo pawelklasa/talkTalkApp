@@ -76,21 +76,30 @@ p {
   padding: 10px;
   background-color: #fff;
   height: 100%;
-  border: solid 1px #ddd;
+  
 }
 
 .bills {
   grid-area: button;
+  border: solid 1px #ddd;
+  border-bottom: none;
+  border-right: none;
 }
 
 .fix {
   grid-area: button2;
+  border: solid 1px #ddd;
+  border-bottom: none;
+
 } 
 
-.bills {
+.speed {
   grid-area: button3;
+  border: solid 1px #ddd;
+  border-right: none;
 }
 
-.fix {
+.security {
   grid-area: button4;
+  border: solid 1px #ddd;
 } 
