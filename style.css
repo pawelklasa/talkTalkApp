@@ -9,8 +9,6 @@ body {
   grid-template-areas: 
     'nav nav'
     'welcome welcome'
-    'button button2'
-    'button3 button4'
     'footer footer';
 }
 
@@ -73,6 +71,20 @@ p {
   font-size: 14px;
 }
 
+
+
+.btns {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  grid-area: footer;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-areas: 
+    'box1 box2'
+    'box3 box4';
+}
+
 .button-card {
   text-align: center;
   margin: auto;
@@ -84,39 +96,32 @@ p {
 }
 
 .bills {
-  grid-area: button;
+  grid-area: box1;
   border: solid 1px #ddd;
   border-bottom: none;
   border-right: none;
 }
 
 .fix {
-  grid-area: button2;
+  grid-area: box2;
   border: solid 1px #ddd;
   border-bottom: none;
 
 } 
 
 .speed {
-  grid-area: button3;
+  grid-area: box3;
   border: solid 1px #ddd;
   border-right: none;
 }
 
 .security {
-  grid-area: button4;
+  grid-area: box4;
   border: solid 1px #ddd;
 } 
 
 .btn-title {
   margin-bottom: 0px;
-}
-
-.btns {
-
-  grid-area: bottom;
-  bottom: 0px;
-  position: absolute;
 }
 
 .color {
