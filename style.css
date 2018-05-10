@@ -158,3 +158,38 @@ p {
 }
 
 
+/* iPhone X */
+
+@media screen and ( min-height: 800px) {
+  .button-card {
+    padding: 20px;
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .notif-text {
+    color: #394348;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+  .button {
+    font-family: 'Omnes Light', sans-serif;
+    font-size: 22px;
+    margin: auto;
+    max-width: 300px;
+    background-color: #1e4e9d;
+    height: 60px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+  }
+  .no-margin {
+    font-size: 30px;
+  }
+  .card {
+    padding: 40px 20px 40px 20px;
+
+  }
+}
