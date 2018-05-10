@@ -140,4 +140,21 @@ p {
   color: #7d3a93;
 }
 
+.dots {
+  text-align: center;
+}
+
+.bull-purple {
+  color: #7d3a93;
+}
+
+.bull {
+  color: #ddd;
+}
+
+.no-margin {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
 
