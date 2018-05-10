@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Omnes Light";
+  src: url("fonts/Omnes-Light.otf");
+}
+
 body {
   margin: 0 auto; 
   background-color: #fafafa;
@@ -10,6 +15,12 @@ body {
     'nav nav'
     'welcome welcome'
     'footer footer';
+}
+
+h3 {
+  color: #394348;
+  font-family: 'Omnes Light', sans-serif;
+  font-size: 24px;
 }
 
 .nav-bar {
@@ -54,8 +65,8 @@ p {
 }
 
 .button {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-family: 'Omnes Light', sans-serif;
+  font-size: 18px;
   margin: auto;
   max-width: 300px;
   background-color: #1e4e9d;
@@ -67,6 +78,7 @@ p {
 }
 
 .notif-text {
+  color: #394348;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
@@ -86,6 +98,7 @@ p {
 }
 
 .button-card {
+  color: #394348;
   text-align: center;
   margin: auto;
   padding: 10px;
