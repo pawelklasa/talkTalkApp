@@ -13,9 +13,9 @@ body {
   /* grid-gap: 10px; */
   grid-auto-columns: 1fr;
   grid-template-areas: 
-    'nav nav'
-    'welcome welcome'
-    'footer footer';
+    'nav'
+    'welcome'
+    'footer';
 }
 
 h3 {
@@ -118,7 +118,6 @@ p {
   grid-area: box2;
   border: solid 1px #ddd;
   border-bottom: none;
-
 } 
 
 .speed {
@@ -134,6 +133,7 @@ p {
 
 .btn-title {
   margin-bottom: 0px;
+  margin-top: -15px;
 }
 
 .color {
@@ -157,4 +157,63 @@ p {
   margin-top: 5px;
 }
 
+.engineer {
+  width: 60px;
+}
 
+.card-payment {
+  width: 60px;
+}
+
+svg {
+  fill: #7d3a93;
+}
+
+
+/* iPhone X */
+
+@media screen and ( min-height: 800px ) {
+  .button-card {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .notif-text {
+    color: #394348;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  .button {
+    font-family: 'Omnes Light', sans-serif;
+    font-size: 22px;
+    margin: auto;
+    max-width: 300px;
+    background-color: #1e4e9d;
+    height: 60px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+  }
+
+  .no-margin {
+    font-size: 30px;
+  }
+
+  .card {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .engineer {
+    width: 80px;
+  }
+  
+  .card-payment {
+    width: 80px;
+  }
+}
