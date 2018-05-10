@@ -13,9 +13,9 @@ body {
   /* grid-gap: 10px; */
   grid-auto-columns: 1fr;
   grid-template-areas: 
-    'nav nav'
-    'welcome welcome'
-    'footer footer';
+    'nav'
+    'welcome'
+    'footer';
 }
 
 h3 {
@@ -208,7 +208,7 @@ svg {
   .card {
     padding: 40px 20px 40px 20px;
   }
-  
+
   .engineer {
     width: 80px;
   }
