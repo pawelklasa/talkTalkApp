@@ -202,6 +202,12 @@ svg {
   }
   .card {
     padding: 40px 20px 40px 20px;
-
+  }
+  .engineer {
+    width: 80px;
+  }
+  
+  .card-payment {
+    width: 80px;
   }
 }
