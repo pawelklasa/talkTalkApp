@@ -20,7 +20,7 @@ body {
 h3 {
   color: #394348;
   font-family: 'Omnes Light', sans-serif;
-  font-size: 24px;
+  font-size: 3.5vh;
 }
 
 .nav-bar {
@@ -66,21 +66,21 @@ p {
 
 .button {
   font-family: 'Omnes Light', sans-serif;
-  font-size: 18px;
+  font-size: 2.5vh;
   margin: auto;
   max-width: 300px;
   background-color: #1e4e9d;
   height: 45px;
   border-radius: 3px;
   text-align: center;
-  line-height: 45px;
+  line-height: 50px;
   color: #fff;
 }
 
 .notif-text {
   color: #394348;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 2.5vh;
 }
 
 .btns {
@@ -103,7 +103,7 @@ p {
   background-color: #fff;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 3vh;
 }
 
 .bills {
@@ -152,16 +152,16 @@ p {
 }
 
 .no-margin {
-  font-size: 20px;
+  font-size: 3vh;
   margin-top: 5px;
 }
 
 .engineer {
-  width: 60px;
+  width: 11vh;
 }
 
 .card-payment {
-  width: 60px;
+  width: 3vh;
 }
 
 svg {
@@ -170,7 +170,7 @@ svg {
 
 
 /* iPhone X */
-
+/* 
 @media screen and ( min-height: 800px ) {
   .button-card {
     padding: 20px;
@@ -215,4 +215,4 @@ svg {
   .card-payment {
     width: 80px;
   }
-}
+} */
